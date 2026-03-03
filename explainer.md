@@ -63,7 +63,7 @@ The application can allow sharing the diagnostic data with the user agent
 let id = await navigator.rtc.startDiagnosticLogging({allowUpload: true, metadata: {'app':'myapp'}});
 sendToApplication(id);
 
-await navigator.rtc.finishDiagnisticLogging();
+await navigator.rtc.finishDiagnosticLogging();
 ```
 
 In this case, the application can file a bug report with the user agent and 
