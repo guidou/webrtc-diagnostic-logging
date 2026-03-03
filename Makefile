@@ -1,12 +1,7 @@
 all: index.html
 
 index.html: index.bs
-	bikeshed spec index.bs index.html
+	curl https://api.csswg.org/bikeshed/ -F file=@index.bs  > index.html
 
-clean:
-	rm -f index.html
-
-watch:
-	bikeshed watch index.bs index.html
-
-.PHONY: all clean watch
+check: index.bs
+	curl https://api.csswg.org/bikeshed/ -F file=@index.bs -F output=err
