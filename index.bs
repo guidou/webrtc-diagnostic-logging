@@ -1,5 +1,5 @@
 <pre class='metadata'>
-Title: WebRTC Web Diagnostic Logging API
+Title: WebRTC Diagnostic Logging API
 Shortname: webrtc-diagnostic-logging
 Level: 1
 Status: ED
@@ -12,7 +12,7 @@ Markup Shorthands: markdown yes, css yes
 
 # Introduction # {#intro}
 
-The WebRTC Web Diagnostic Logging API provides a programmatic interface for web
+The WebRTC Diagnostic Logging API provides a programmatic interface for web
 applications to start, finish, and cancel the collection of internal diagnostic
 logs for WebRTC-related operations performed by the user agent.
 These diagnostic logs are never exposed to the application. Instead they are

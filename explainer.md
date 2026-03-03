@@ -1,4 +1,4 @@
-# Explainer: WebRTC Web Diagnostic Logging API
+# Explainer: WebRTC Diagnostic Logging API
 
 ## Authors:
 
